@@ -3,18 +3,18 @@ const { Post } = require('../models');
 const postdata =
 [
   {
-    "postTitle": "Beautiful Day",
-    "postContent": "This is a beautiful day",
+    "postTitle": "Rainy weather",
+    "postContent": "Today is very rainy.",
     "userId": 1
   },
   {
-    "postTitle": "Fields",
-    "postContent": "This is the greenest field",
+    "postTitle": "Soccer",
+    "postContent": "Soccer is the most entertaining sport.",
     "userId": 2
   },
   {
-    "postTitle": "Do you hear it?",
-    "postContent": "This is very musical, listen!",
+    "postTitle": "Vibes",
+    "postContent": "Keep up the good vibes!",
     "userId": 3
   }
 ];

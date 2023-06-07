@@ -2,12 +2,14 @@ const router = require('express').Router();
 const { Comment } = require('../../models/');
 const withAuth = require('../../utils/auth');
 
-//withAuth to make sure only users who are logged can access
+// withAuth to make sure only users who are logged can access
+
 router.get('/', withAuth, async (req, res) => {
  try{ 
   const commentData = await Comment.findAll({
     include: [User],
   });
+
 // serialize the data
   const comments = commentData.map((comment) => comment.get({ plain: true }));
 
