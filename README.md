@@ -68,7 +68,7 @@ https://github.com/mahdi83777/MahdisTechBlog
 
 Deployed Heroku:
 
-https://shrouded-springs-09070.herokuapp.com/
+https://salty-tor-19542.herokuapp.com/
 
 ## References
 
